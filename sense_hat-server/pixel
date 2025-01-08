@@ -1,0 +1,4 @@
+#!/bin/sh
+
+. `dirname $0`/vars
+echo "pixel $1" | nc -u -w 0 $SENSE_HAT_IP $SENSE_HAT_PORT

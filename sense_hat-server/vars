@@ -1,0 +1,4 @@
+#!/bin/sh
+
+export SENSE_HAT_IP=127.0.0.1
+export SENSE_HAT_PORT=12345

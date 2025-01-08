@@ -1,0 +1,4 @@
+#!/bin/sh
+
+. `dirname $0`/vars
+./server 0.0.0.0 $SENSE_HAT_PORT &

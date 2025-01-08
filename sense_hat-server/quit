@@ -1,0 +1,4 @@
+#!/bin/sh
+
+. `dirname $0`/vars
+echo "quit" | nc -u -w0 $SENSE_HAT_IP $SENSE_HAT_PORT
